@@ -1,0 +1,62 @@
+.main-wrap{
+    width: 900px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+    left:300px;
+    top: 100px;
+    background-color: skyblue;
+}
+.head-div{
+    display: flex;
+    color: white;
+}
+.next-button{
+height: 33px;
+top: 26px;
+position: relative;
+left: 360px;
+border-radius: 12px;
+background-color: #ff5722;
+color: white;
+}
+.head-tag{
+    position: relative;
+    left: 154px;
+}
+.name-div{
+    margin: 10px;
+    width: 540px;
+    height: 76px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    left: 17%;
+}
+.name-span{
+background-color: gray;
+}
+.loc-span{
+
+}
+.name-inner-div{
+    display: flex;
+}
+.number{
+    left: 10px;
+    top: 28px;
+    position: relative;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+.number-div{
+    height: 76px;
+    width: 60px;
+    background-color: green;
+}
+.last-parag{
+    color: white;
+    left: 34%;
+    position: absolute;
+}

@@ -1,0 +1,21 @@
+<div class="main-wrap">
+  <div class="head-div">
+    <h1 class="head-tag">PEOPLE DATA</h1>
+    <button class="next-button" type="button" (click)="showMore()">NEXT PERSON</button>
+  </div>
+  <div class="name-div" *ngFor="let data of peopelData.slice(startIndex, startIndex + 3); index as i">
+    <div class="name-inner-div">
+      <div class="number-div">
+        <span class="number"> {{i+1}} </span>
+      </div>
+    <p>
+      <span>Name: {{data.name}}</span>   
+      <br><br>
+      <span>Location: {{data.location}}</span>
+    </p>
+  </div>
+  </div>
+  <p *ngIf="!hide" class="last-parag">CURRENTLY 3 PEOPLE SHOWING</p>
+</div>
+
+<router-outlet></router-outlet>
